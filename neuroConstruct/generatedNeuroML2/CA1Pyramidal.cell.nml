@@ -624,7 +624,7 @@
                 <channelDensity condDensity="75.0 mS_per_cm2" id="NaF_Level2" ionChannel="NaF" segmentGroup="Level2" erev="50.0 mV"/>
                 
 
-                <spikeThresh value="0.0 mV"/>
+                <spikeThresh value="-20.0 mV"/>
 
                 <specificCapacitance value="1.0 uF_per_cm2"/>
 

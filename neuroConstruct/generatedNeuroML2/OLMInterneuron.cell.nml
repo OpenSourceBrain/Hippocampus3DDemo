@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="OLMInterneuron">
+
+    <include href="KDR.channel.nml"/>
+
+    <include href="LeakConductance.channel.nml"/>
+
+    <include href="NaF.channel.nml"/>
+
+    <cell id="OLMInterneuron">
+
+        <notes>A Simple cell for testing purposes</notes>
+
+        <morphology id="morphology_OLMInterneuron">
+
+            <segment id="0" name="Soma">
+                <proximal x="0.0" y="0.0" z="0.0" diameter="20.0"/>
+                <distal x="0.0" y="0.0" z="0.0" diameter="20.0"/>
+            </segment>
+
+            <segment id="1" name="Segment_1">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="30.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="2" name="Segment_2">
+                <parent segment="1"/>
+                <proximal x="0.0" y="0.0" z="30.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="60.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="3" name="Segment_3">
+                <parent segment="2"/>
+                <proximal x="0.0" y="0.0" z="60.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="90.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="4" name="Segment_4">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="-30.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="5" name="Segment_5">
+                <parent segment="4"/>
+                <proximal x="0.0" y="0.0" z="-30.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="-60.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="6" name="Segment_6">
+                <parent segment="5"/>
+                <proximal x="0.0" y="0.0" z="-60.0" diameter="6.0"/>
+                <distal x="0.0" y="0.0" z="-90.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="7" name="Segment_7">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="30.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="8" name="Segment_8">
+                <parent segment="7"/>
+                <proximal x="30.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="60.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="9" name="Segment_9">
+                <parent segment="8"/>
+                <proximal x="60.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="90.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="10" name="Segment_10">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="-30.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="11" name="Segment_11">
+                <parent segment="10"/>
+                <proximal x="-30.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="-60.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="12" name="Segment_12">
+                <parent segment="11"/>
+                <proximal x="-60.0" y="0.0" z="0.0" diameter="6.0"/>
+                <distal x="-90.0" y="0.0" z="0.0" diameter="6.0"/>
+            </segment>
+
+            <segment id="13" name="Segment_13">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="20.0" y="0.0" z="20.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="14" name="Segment_14">
+                <parent segment="13"/>
+                <proximal x="20.0" y="0.0" z="20.0" diameter="4.0"/>
+                <distal x="40.0" y="0.0" z="40.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="15" name="Segment_15">
+                <parent segment="14"/>
+                <proximal x="40.0" y="0.0" z="40.0" diameter="4.0"/>
+                <distal x="50.0" y="0.0" z="60.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="16" name="Segment_16">
+                <parent segment="14"/>
+                <proximal x="40.0" y="0.0" z="40.0" diameter="4.0"/>
+                <distal x="60.0" y="0.0" z="50.0" diameter="4.0"/>
+            </segment>
+
+            <segmentGroup id="Soma" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="0"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_1" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="1"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_2" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="2"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_3" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="3"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_4" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="4"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_5" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="5"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_6" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="6"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_7" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="7"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_8" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="8"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_9" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="9"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_10" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="10"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_11" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="11"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_12" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="12"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_13" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="13"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_14" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="14"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_15" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="15"/>
+            </segmentGroup>
+
+            <segmentGroup id="Section_16" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <member segment="16"/>
+            </segmentGroup>
+
+            <segmentGroup id="all">
+                <include segmentGroup="Soma"/>
+                <include segmentGroup="Section_1"/>
+                <include segmentGroup="Section_2"/>
+                <include segmentGroup="Section_3"/>
+                <include segmentGroup="Section_4"/>
+                <include segmentGroup="Section_5"/>
+                <include segmentGroup="Section_6"/>
+                <include segmentGroup="Section_7"/>
+                <include segmentGroup="Section_8"/>
+                <include segmentGroup="Section_9"/>
+                <include segmentGroup="Section_10"/>
+                <include segmentGroup="Section_11"/>
+                <include segmentGroup="Section_12"/>
+                <include segmentGroup="Section_13"/>
+                <include segmentGroup="Section_14"/>
+                <include segmentGroup="Section_15"/>
+                <include segmentGroup="Section_16"/>
+            </segmentGroup>
+
+            <segmentGroup id="soma_group" neuroLexId="GO:0043025">    <!--Soma group-->
+
+                <include segmentGroup="Soma"/>
+            </segmentGroup>
+
+            <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">    <!--Dendrite group-->
+
+                <include segmentGroup="Section_1"/>
+                <include segmentGroup="Section_2"/>
+                <include segmentGroup="Section_3"/>
+                <include segmentGroup="Section_4"/>
+                <include segmentGroup="Section_5"/>
+                <include segmentGroup="Section_6"/>
+                <include segmentGroup="Section_7"/>
+                <include segmentGroup="Section_8"/>
+                <include segmentGroup="Section_9"/>
+                <include segmentGroup="Section_10"/>
+                <include segmentGroup="Section_11"/>
+                <include segmentGroup="Section_12"/>
+            </segmentGroup>
+
+            <segmentGroup id="axon_group" neuroLexId="GO:0030424">    <!--Axon group-->
+
+                <include segmentGroup="Section_13"/>
+                <include segmentGroup="Section_14"/>
+                <include segmentGroup="Section_15"/>
+                <include segmentGroup="Section_16"/>
+            </segmentGroup>
+
+            
+        </morphology>
+
+            <!--Adding the biophysical parameters-->
+
+        <biophysicalProperties id="biophys">
+
+            <membraneProperties>
+                
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KDR_all" ionChannel="KDR" erev="-77.0 mV"/>
+                
+                <channelDensity condDensity="0.3 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" erev="-54.3 mV"/>
+                
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaF_all" ionChannel="NaF" erev="50.0 mV"/>
+                
+
+                <spikeThresh value="0.0 mV"/>
+
+                <specificCapacitance value="1.0 uF_per_cm2"/>
+
+                <initMembPotential value="-65.0 mV"/>
+
+            </membraneProperties>
+
+            <intracellularProperties>
+
+                <resistivity value="0.03 kohm_cm"/>
+
+            </intracellularProperties>
+
+        </biophysicalProperties>
+
+    </cell>
+    
+</neuroml>
