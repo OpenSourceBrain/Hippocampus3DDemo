@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_91" class="java.beans.XMLDecoder">
+
+<!-- Note that this XML is specific to the neuroConstruct Java cell object model and not any part of the NeuroML framework -->
+
+ <object class="ucl.physiol.neuroconstruct.cell.Cell" id="Cell0">
+  <void property="allSegments">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment0">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="finiteVolume">
+      <boolean>true</boolean>
+     </void>
+     <void property="radius">
+      <float>15.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section0">
+       <void property="groups">
+        <void method="add">
+         <string>soma_group</string>
+        </void>
+        <void method="add">
+         <string>Level1</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Soma</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>15.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>0</int>
+     </void>
+     <void property="segmentName">
+      <string>Soma</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment1">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>20.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>4.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section1">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level5</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_1</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>4.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>1</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment2">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment1"/>
+     </void>
+     <void property="radius">
+      <float>4.0</float>
+     </void>
+     <void property="section">
+      <object idref="Section1"/>
+     </void>
+     <void property="segmentId">
+      <int>2</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_2</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment3">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment2"/>
+     </void>
+     <void property="radius">
+      <float>4.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section2">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level6</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_2</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>70.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>4.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>3</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_3</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment4">
+     <void property="endPointPositionX">
+      <float>50.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment2"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section3">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_3</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>70.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>4</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_4</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment5">
+     <void property="endPointPositionX">
+      <float>-50.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment2"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section4">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_4</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>70.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>7</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_7</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment6">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment3"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section5">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_5</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>120.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>10</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_10</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment7">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment3"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section6">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_6</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>120.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>13</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_13</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment8">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>170.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment3"/>
+     </void>
+     <void property="radius">
+      <float>4.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section7">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level7</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_7</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>120.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>4.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>16</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_16</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment9">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>220.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment8"/>
+     </void>
+     <void property="radius">
+      <float>3.5</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section8">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_10</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>170.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>4.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>23</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_23</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment10">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-60.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section9">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_12</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>30</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_30</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment10"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section10">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_13</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>-60.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>31</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_31</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment11">
+     <void property="endPointPositionX">
+      <float>35.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>35.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section11">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_15</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>33</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_33</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment12">
+     <void property="endPointPositionX">
+      <float>35.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-35.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section12">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_16</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>36</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_36</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-70.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment12"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section13">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_17</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>35.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>-35.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>37</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_37</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment13">
+     <void property="endPointPositionX">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>35.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section14">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_19</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>39</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_39</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment14">
+     <void property="endPointPositionX">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-35.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-35.0</float>
+     </void>
+     <void property="fractionAlongParent">
+      <float>0.5</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment0"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section15">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level2</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_20</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>42</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_42</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>70.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment13"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section16">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_24</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>35.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>49</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_49</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>70.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment11"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section17">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_26</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>35.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>35.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>51</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_51</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>-70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-70.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment14"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section18">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_28</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>-35.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>-35.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>53</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_53</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment5"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section19">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_30</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>70.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>55</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_55</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>70.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment4"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section20">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_32</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>70.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>57</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_57</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-100.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment7"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section21">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_34</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>120.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>-50.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>59</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_59</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>0.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>120.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>100.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment6"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section22">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Level3</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_36</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>120.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>50.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>61</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_61</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment15">
+     <void property="endPointPositionX">
+      <float>-50.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>270.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment9"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section23">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_42</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>220.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.5</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>67</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_43</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment" id="Segment16">
+     <void property="endPointPositionX">
+      <float>50.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>270.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment9"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section24">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_25</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>0.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>220.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.5</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>68</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_25</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment16"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section25">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_27</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>69</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_26</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment16"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section26">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_29</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>70</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_27</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment16"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section27">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_31</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>71</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_28</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>0.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment15"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section28">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_33</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>72</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_29</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>-50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment15"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section29">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_35</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>73</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_32</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.cell.Segment">
+     <void property="endPointPositionX">
+      <float>-100.0</float>
+     </void>
+     <void property="endPointPositionY">
+      <float>320.0</float>
+     </void>
+     <void property="endPointPositionZ">
+      <float>50.0</float>
+     </void>
+     <void property="parentSegment">
+      <object idref="Segment15"/>
+     </void>
+     <void property="radius">
+      <float>3.0</float>
+     </void>
+     <void property="section">
+      <object class="ucl.physiol.neuroconstruct.cell.Section" id="Section30">
+       <void property="groups">
+        <void method="add">
+         <string>dendrite_group</string>
+        </void>
+        <void method="add">
+         <string>Levels8to15</string>
+        </void>
+        <void method="add">
+         <string>apical_dends</string>
+        </void>
+       </void>
+       <void property="sectionName">
+        <string>Section_37</string>
+       </void>
+       <void property="startPointPositionX">
+        <float>-50.0</float>
+       </void>
+       <void property="startPointPositionY">
+        <float>270.0</float>
+       </void>
+       <void property="startPointPositionZ">
+        <float>0.0</float>
+       </void>
+       <void property="startRadius">
+        <float>3.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="segmentId">
+      <int>74</int>
+     </void>
+     <void property="segmentName">
+      <string>Segment_34</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="cellDescription">
+   <string>A Simple cell for testing purposes</string>
+  </void>
+  <void property="chanMechsVsGroups">
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>7.5E-7</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level2</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>5.0E-8</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level7</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>5.0E-8</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level3</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>7.5E-7</float>
+     </void>
+     <void property="name">
+      <string>KDR</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level2</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>1.0E-5</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level1</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>1.7E-6</float>
+     </void>
+     <void property="name">
+      <string>KDR</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level1</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>1.2E-6</float>
+     </void>
+     <void property="name">
+      <string>KDR</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level5</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>7.5E-7</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level6</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>1.5E-6</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level5</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>2.0E-10</float>
+     </void>
+     <void property="name">
+      <string>LeakConductance</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>all</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>5.0E-8</float>
+     </void>
+     <void property="name">
+      <string>NaF</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Levels8to15</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>7.5E-7</float>
+     </void>
+     <void property="name">
+      <string>KDR</string>
+     </void>
+    </object>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Level6</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="instanceName">
+   <string>CA1Pyramidal</string>
+  </void>
+  <void property="synapsesVsGroups">
+   <void method="put">
+    <string>LTSInterToNTPyram</string>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>Levels8to15</string>
+     </void>
+     <void method="add">
+      <string>Level3</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>GABA_A</string>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>all</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>DoubExpSyn</string>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>all</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>PyrToInter</string>
+    <object class="java.util.Vector">
+     <void method="add">
+      <string>soma_group</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
