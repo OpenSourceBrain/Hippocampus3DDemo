@@ -13,11 +13,13 @@ Example of model running in neuroConstruct:
 
 ### NeuroML version of project
 
-NeuroML 2 files have been generated from the neuroConstruct project and can be found here: https://github.com/OpenSourceBrain/Hippocampus3DDemo/tree/master/neuroConstruct/generatedNeuroML2
+NeuroML 2 files have been generated from the neuroConstruct project and can be found here: https://github.com/OpenSourceBrain/Hippocampus3DDemo/tree/master/neuroConstruct/generatedNeuroML2.
+
+See [here](https://neuroml.org/getneuroml) for a list of resources about NeuroML 2 and the libraries/tools available for handling the format. See also: [Why should you convert your model to NeuroML 2?](http://www.opensourcebrain.org/docs#Converting_To_NeuroML2)
 
 ### 3D view of network on Open Source Brain
 
-The network above can be pulled from GitHub by OSB and can be viewed in your browser:
+The network above can be retrieved from GitHub by OSB and can be viewed in your browser:
 
 ![osb](https://raw.githubusercontent.com/OpenSourceBrain/Hippocampus3DDemo/master/images/osb.png)
 
