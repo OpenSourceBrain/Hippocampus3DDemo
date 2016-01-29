@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><!--
-    Example of HH K conductance specified in ChannelML.
-    Based on Michael Hines's initial proposal.
--->
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="KDR">
 
     <notes>ChannelML file containing a single Channel description</notes>
 
-    <ionChannel id="KDR" conductance="10pS" type="ionChannelPassive">
+    <ionChannel id="KDR" conductance="10pS" type="ionChannelHH" species="k">
 
         <notes>Simple example of K conductance in squid giant axon. Based on channel from Hodgkin and Huxley 1952</notes>
                 
@@ -33,8 +30,11 @@
                 </rdf:Description>
             </rdf:RDF>
         </annotation>
-                                    Not yet implemented....
-                            
+
+        <gate id="n" type="gateHHrates" instances="4">
+            <forwardRate type="HHExpLinearRate" rate="0.1per_ms" scale="10mV" midpoint="-55mV"/>
+            <reverseRate type="HHExpRate" rate="0.125per_ms" scale="-80mV" midpoint="-65mV"/>
+        </gate>
                             
     </ionChannel>
 

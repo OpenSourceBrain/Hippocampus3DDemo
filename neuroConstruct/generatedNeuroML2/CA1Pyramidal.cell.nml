@@ -599,29 +599,29 @@
 
             <membraneProperties>
                 
-                <channelDensity condDensity="120.0 mS_per_cm2" id="KDR_Level5" ionChannel="KDR" segmentGroup="Level5" erev="-77.0 mV"/>
+                <channelDensity condDensity="120.0 mS_per_cm2" id="KDR_Level5" ionChannel="KDR" segmentGroup="Level5" ion="k" erev="-77.0 mV"/>
                 
-                <channelDensity condDensity="170.0 mS_per_cm2" id="KDR_Level1" ionChannel="KDR" segmentGroup="Level1" erev="-77.0 mV"/>
+                <channelDensity condDensity="170.0 mS_per_cm2" id="KDR_Level1" ionChannel="KDR" segmentGroup="Level1" ion="k" erev="-77.0 mV"/>
                 
-                <channelDensity condDensity="75.0 mS_per_cm2" id="KDR_Level6" ionChannel="KDR" segmentGroup="Level6" erev="-77.0 mV"/>
+                <channelDensity condDensity="75.0 mS_per_cm2" id="KDR_Level6" ionChannel="KDR" segmentGroup="Level6" ion="k" erev="-77.0 mV"/>
                 
-                <channelDensity condDensity="75.0 mS_per_cm2" id="KDR_Level2" ionChannel="KDR" segmentGroup="Level2" erev="-77.0 mV"/>
+                <channelDensity condDensity="75.0 mS_per_cm2" id="KDR_Level2" ionChannel="KDR" segmentGroup="Level2" ion="k" erev="-77.0 mV"/>
                 
-                <channelDensity condDensity="0.02 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" erev="-54.3 mV"/>
+                <channelDensity condDensity="0.02 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" ion="non_specific" erev="-54.3 mV"/>
                 
-                <channelDensity condDensity="1000.0 mS_per_cm2" id="NaF_Level1" ionChannel="NaF" segmentGroup="Level1" erev="50.0 mV"/>
+                <channelDensity condDensity="1000.0 mS_per_cm2" id="NaF_Level1" ionChannel="NaF" segmentGroup="Level1" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="150.0 mS_per_cm2" id="NaF_Level5" ionChannel="NaF" segmentGroup="Level5" erev="50.0 mV"/>
+                <channelDensity condDensity="150.0 mS_per_cm2" id="NaF_Level5" ionChannel="NaF" segmentGroup="Level5" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Levels8to15" ionChannel="NaF" segmentGroup="Levels8to15" erev="50.0 mV"/>
+                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Levels8to15" ionChannel="NaF" segmentGroup="Levels8to15" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Level7" ionChannel="NaF" segmentGroup="Level7" erev="50.0 mV"/>
+                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Level7" ionChannel="NaF" segmentGroup="Level7" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Level3" ionChannel="NaF" segmentGroup="Level3" erev="50.0 mV"/>
+                <channelDensity condDensity="5.0 mS_per_cm2" id="NaF_Level3" ionChannel="NaF" segmentGroup="Level3" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="75.0 mS_per_cm2" id="NaF_Level6" ionChannel="NaF" segmentGroup="Level6" erev="50.0 mV"/>
+                <channelDensity condDensity="75.0 mS_per_cm2" id="NaF_Level6" ionChannel="NaF" segmentGroup="Level6" ion="na" erev="50.0 mV"/>
                 
-                <channelDensity condDensity="75.0 mS_per_cm2" id="NaF_Level2" ionChannel="NaF" segmentGroup="Level2" erev="50.0 mV"/>
+                <channelDensity condDensity="75.0 mS_per_cm2" id="NaF_Level2" ionChannel="NaF" segmentGroup="Level2" ion="na" erev="50.0 mV"/>
                 
 
                 <spikeThresh value="-20.0 mV"/>

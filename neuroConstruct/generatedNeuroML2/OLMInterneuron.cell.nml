@@ -308,14 +308,14 @@
 
             <membraneProperties>
                 
-                <channelDensity condDensity="36.0 mS_per_cm2" id="KDR_all" ionChannel="KDR" erev="-77.0 mV"/>
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KDR_all" ionChannel="KDR" ion="k" erev="-77.0 mV"/>
                 
-                <channelDensity condDensity="0.3 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" erev="-54.3 mV"/>
+                <channelDensity condDensity="0.3 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" ion="non_specific" erev="-54.3 mV"/>
                 
-                <channelDensity condDensity="120.0 mS_per_cm2" id="NaF_all" ionChannel="NaF" erev="50.0 mV"/>
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaF_all" ionChannel="NaF" ion="na" erev="50.0 mV"/>
                 
 
-                <spikeThresh value="0.0 mV"/>
+                <spikeThresh value="-20.0 mV"/>
 
                 <specificCapacitance value="1.0 uF_per_cm2"/>
 

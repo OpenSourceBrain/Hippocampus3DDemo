@@ -9,4 +9,7 @@ neuroConstruct/simulations
 x86_64
 umac
 i386
-
+*.svg
+neuroConstruct/generatedNeuroML2/*.png
+/neuroConstruct/generatedNeuroML2/Hippocampus.net.pov
+/neuroConstruct/generatedNeuroML2/Hippocampus.net_movie.ini
